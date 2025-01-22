@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TrainingProgramming.StructuriRepetitive
+﻿namespace TrainingProgramming.StructuriRepetitive
 {
     public class StructuriRepetitive
     {
@@ -73,6 +67,68 @@ namespace TrainingProgramming.StructuriRepetitive
             {
                 Console.WriteLine(pisica);
             }
+
+        }
+
+        [Test]
+        public void WhileLoop()
+        {
+            /*
+            int counter = 18;
+            while (counter <= 36)
+            {
+               Console.WriteLine($"The current counter value is: {counter} ");
+               counter++;
+            }
+            
+            MetodaWhile(13, 18);
+            Console.WriteLine();
+            MetodaWhile(11, 16);
+            Console.WriteLine();
+            MetodaWhile(-6, 2);
+            
+
+            MetodaWhileSkip(1, 5, 2);
+            */
+            DoWhileMethod(-5,5);
+        }
+
+        public void MetodaWhile(int counter, int limit)
+        {
+            while (counter <= limit)
+            {
+
+                Console.WriteLine($"The current counter value is: {counter} ");
+                counter++;
+
+            }
+        }
+
+        public void MetodaWhileSkip(int counter, int limit, int skippedValue)
+        {
+
+            while (counter <= limit)
+            {
+            
+                if (counter == skippedValue)
+                {
+                    counter++;
+                    continue;
+                }
+                Console.WriteLine($"The current counter value is: {counter} ");
+                counter++;
+
+            }
+        }
+        public void DoWhileMethod(int counter, int limit)
+        {
+
+            do
+            {
+                Console.WriteLine($"The value is: {counter} ");
+                counter++;
+
+            } while (counter <= limit);
         }
     }
 }
