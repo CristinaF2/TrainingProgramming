@@ -1,6 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace TrainingProgramming.Abstractizare
+namespace TrainingProgramming.Abstractizare.AbstractizarePrinInterfete
 {
     public class Employee : Person, IEmployee
     {

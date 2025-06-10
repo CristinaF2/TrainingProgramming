@@ -1,4 +1,4 @@
-﻿namespace TrainingProgramming.Abstractizare
+﻿namespace TrainingProgramming.polimorfism
 {
     public class Person
     {
@@ -18,6 +18,10 @@
             Console.WriteLine($"Nume: {Nume}, Prenume: {Prenume}, Varsta: {Varsta}");
         }
 
+        public virtual void Mananca()
+        {
+            Console.WriteLine("Persoana mananca.");
+        }
 
 
     }

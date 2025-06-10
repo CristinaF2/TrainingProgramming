@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TrainingProgramming.Abstractizare
+namespace TrainingProgramming.Abstractizare.AbstractizarePrinInterfete
 {
     public class EmployeeStudent: Person, IStudent, IEmployee
     {

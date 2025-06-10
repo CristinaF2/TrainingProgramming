@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TrainingProgramming.Abstractizare.TestingMultipleBrowsers
+{
+    public interface IAutentificabil
+    {
+        void Login(string user, string parola);
+    }
+}

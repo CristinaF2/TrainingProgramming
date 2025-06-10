@@ -1,4 +1,4 @@
-﻿namespace TrainingProgramming.Abstractizare
+﻿namespace TrainingProgramming.Abstractizare.AbstractizarePrinInterfete
 {
     public interface IEmployee
     {
